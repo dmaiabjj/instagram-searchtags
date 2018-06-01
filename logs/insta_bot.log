@@ -1,0 +1,187 @@
+2018-05-31 21:49:43,782:ERROR:unknown color specifier: '#00ff))'
+Traceback (most recent call last):
+  File "robot.py", line 31, in save_image
+    result = image_color.image_tint(path, '#00FF))')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 12, in image_tint
+    tr, tg, tb = getrgb(tint)
+  File "/Users/dmaia/anaconda3/lib/python3.6/site-packages/PIL/ImageColor.py", line 113, in getrgb
+    raise ValueError("unknown color specifier: %r" % color)
+ValueError: unknown color specifier: '#00ff))'
+2018-05-31 21:49:45,409:ERROR:unknown color specifier: '#00ff))'
+Traceback (most recent call last):
+  File "robot.py", line 31, in save_image
+    result = image_color.image_tint(path, '#00FF))')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 12, in image_tint
+    tr, tg, tb = getrgb(tint)
+  File "/Users/dmaia/anaconda3/lib/python3.6/site-packages/PIL/ImageColor.py", line 113, in getrgb
+    raise ValueError("unknown color specifier: %r" % color)
+ValueError: unknown color specifier: '#00ff))'
+2018-05-31 21:50:53,007:ERROR:unknown color specifier: '#00ff))'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF))')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 13, in image_tint
+    tr, tg, tb = getrgb(tint)
+  File "/Users/dmaia/anaconda3/lib/python3.6/site-packages/PIL/ImageColor.py", line 113, in getrgb
+    raise ValueError("unknown color specifier: %r" % color)
+ValueError: unknown color specifier: '#00ff))'
+2018-05-31 21:51:14,766:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 22, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:51:15,483:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 22, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:52:04,858:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 21, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:52:06,909:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 21, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:52:43,768:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 23, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:52:44,989:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 23, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:53:14,977:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 22, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 21:53:16,480:ERROR:unsupported operand type(s) for +: 'map' and 'map'
+Traceback (most recent call last):
+  File "robot.py", line 30, in save_image
+    result = image_color.image_tint(path, '#00FF00')
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/image_color.py", line 22, in image_tint
+    map(lambda lg: int(lg*sg + 0.5), range(256)) +
+TypeError: unsupported operand type(s) for +: 'map' and 'map'
+2018-05-31 22:00:32,588:ERROR:'Image' object has no attribute 'save_image'
+Traceback (most recent call last):
+  File "robot.py", line 36, in save_image
+    red.save_image()
+AttributeError: 'Image' object has no attribute 'save_image'
+2018-05-31 22:00:34,372:ERROR:'Image' object has no attribute 'save_image'
+Traceback (most recent call last):
+  File "robot.py", line 36, in save_image
+    red.save_image()
+AttributeError: 'Image' object has no attribute 'save_image'
+2018-05-31 22:26:59,470:ERROR:join() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 39, in save_image
+    path = "".join(directory,file_name)
+TypeError: join() takes exactly one argument (2 given)
+2018-05-31 22:27:00,911:ERROR:join() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 39, in save_image
+    path = "".join(directory,file_name)
+TypeError: join() takes exactly one argument (2 given)
+2018-05-31 22:27:24,994:ERROR:join() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 39, in save_image
+    path = "".join(directory,file_name)
+TypeError: join() takes exactly one argument (2 given)
+2018-05-31 22:27:26,567:ERROR:join() takes exactly one argument (2 given)
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 39, in save_image
+    path = "".join(directory,file_name)
+TypeError: join() takes exactly one argument (2 given)
+2018-05-31 22:36:15,709:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
+2018-05-31 22:36:17,235:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
+2018-05-31 22:36:27,053:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
+2018-05-31 22:36:28,097:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
+2018-05-31 22:36:40,384:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
+2018-05-31 22:36:41,745:ERROR:Expected 'base_color' to be a length-3 array-like object, but found shape ()
+Traceback (most recent call last):
+  File "robot.py", line 28, in generate_image
+    save_image(directory,file_name,response.content,color)
+  File "robot.py", line 44, in save_image
+    image_tint = RGBTransform().mix_with(color,factor=.40).applied_to(Image.open(path))
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 84, in mix_with
+    base_color = _to_rgb(base_color, "base_color")
+  File "/Users/dmaia/SourceCode/Freela/insta-crawler/transform.py", line 187, in _to_rgb
+    (name, thing.shape))
+AssertionError: Expected 'base_color' to be a length-3 array-like object, but found shape ()
