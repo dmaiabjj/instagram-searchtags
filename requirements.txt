@@ -21,6 +21,7 @@ Bottleneck==1.2.1
 certifi==2018.1.18
 cffi==1.11.4
 chardet==3.0.4
+chronospy==0.1.7
 click==6.7
 cloudpickle==0.5.2
 clyent==1.2.2
