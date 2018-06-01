@@ -1,4 +1,4 @@
-import requests, json, logging, os, errno, random
+import requests, json, logging, os, errno, random, chronos
 from transform import RGBTransform
 from PIL import Image
 
@@ -23,7 +23,6 @@ def generate_image(tup):
         if response.status_code == 200:
             for tag,color in tags:
                 if(tag in tup["text"].lower()):
-                   has_color      = True
                    directory      = "./images/{0}/".format(tup["username"])
                    file_name      = "{0}_{1}.jpg".format(tup["id"],tag)
                    save_image(directory,file_name,response.content,color)
@@ -82,15 +81,25 @@ def get_tag_results(tag,has_next_page,end_cursor=""):
         return (has_next_page,end_cursor,results)
 
 
-tag             = "ACORQUEMEREPRESENTA"
-has_next_page   = True
-end_cursor      = ""
+def search():
+    print("JOB WAS INITIALIZED")
+    tag             = "ACORQUEMEREPRESENTA"
+    has_next_page   = True
+    end_cursor      = ""
 
-while has_next_page:
-    has_next_page,end_cursor,nodes = get_tag_results(tag,has_next_page,end_cursor)
-    for node in nodes:
-        generate_image({"id" : node["node"]["id"],"username" : get_user_name(node["node"]["shortcode"]),"image_url" : node["node"]["display_url"],"text":node["node"]["edge_media_to_caption"]["edges"][0]["node"]["text"]})
+    while has_next_page:
+        has_next_page,end_cursor,nodes = get_tag_results(tag,has_next_page,end_cursor)
+        for node in nodes:
+            generate_image({"id" : node["node"]["id"],"username" : get_user_name(node["node"]["shortcode"]),"image_url" : node["node"]["display_url"],"text":node["node"]["edge_media_to_caption"]["edges"][0]["node"]["text"]})
 
 
 
 
+def init():
+    # bind a ioloop or use default ioloop
+    chronos.setup()  # chronos.setup(tornado.ioloop.IOLoop())
+    chronos.schedule('search', chronos.every(2).hours, search)
+    chronos.start(True)
+
+if __name__ == '__main__':
+    init()
