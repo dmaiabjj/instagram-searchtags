@@ -1,3 +1,4 @@
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -6,3 +7,5 @@
 
 __pycache__
 logs
+
+requirements.txt
